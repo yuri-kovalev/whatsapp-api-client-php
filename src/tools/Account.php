@@ -81,7 +81,7 @@ class Account {
      */
     public function qr(): stdClass {
         return $this->greenApi->request('GET',
-            '{{host}}/waInstance{{idInstance}}/QR/{{apiTokenInstance}}');
+            '{{host}}/waInstance{{idInstance}}/qr/{{apiTokenInstance}}');
     }
 
      /**
