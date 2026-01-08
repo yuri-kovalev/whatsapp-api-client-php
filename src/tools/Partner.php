@@ -40,10 +40,10 @@ class Partner {
     public function createInstance($payload): stdClass {
         $defaultParameters = [
             'name' => null,
-            'webhookUrl' => 'https://app.itkovrochist.ru/api/webhook/green-api/',
+            'webhookUrl' => null,
             'webhookUrlToken' => null,
             'delaySendMessagesMilliseconds' => null,
-            'markIncomingMessagesReaded' => 'yes',
+            'markIncomingMessagesReaded' => null,
             'markIncomingMessagesReadedOnReply' => null,
             'outgoingWebhook' => null,
             'outgoingMessageWebhook' => null,
